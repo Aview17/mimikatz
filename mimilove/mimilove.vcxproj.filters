@@ -41,6 +41,7 @@
     <ClInclude Include="..\modules\kull_m_kernel.h">
       <Filter>common modules</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="common modules">

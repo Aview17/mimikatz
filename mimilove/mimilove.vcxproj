@@ -40,7 +40,7 @@
     <OutDir>$(SolutionDir)$(Platform)\</OutDir>
     <IntDir>$(Platform)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(SolutionDir)inc;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)lib;$(SolutionDir)inc;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)lib\$(Platform);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
@@ -95,6 +95,7 @@
     <ClInclude Include="..\modules\kull_m_process.h" />
     <ClInclude Include="..\modules\kull_m_string.h" />
     <ClInclude Include="mimilove.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="mimilove.rc" />
