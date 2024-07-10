@@ -76,8 +76,8 @@ void mimikatz_begin()
 	kprintf(L"\n"
 		L"  .#####.   " MIMIKATZ_FULL L"\n"
 		L" .## ^ ##.  " MIMIKATZ_SECOND L" - (oe.eo)\n"
-		L" ## \ \\ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )\n"
-		L" ## \\ / ##       > https://blog.gentilkiwi.com/mimikatz\n"
+		L" ## \ // ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )\n"
+		L" ## // \ ##       > https://blog.gentilkiwi.com/mimikatz\n"
 		L" '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )\n"
 		L"  '#####'        > https://pingcastle.com / https://mysmartlogon.com ***/\n");
 	mimikatz_initOrClean(TRUE);
